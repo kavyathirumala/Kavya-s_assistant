@@ -1,0 +1,35 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "heyy hii...!Kavya's assistant is welcoming you wholecodedly:)
+  How are you? "
+
+  utter_cheer_up:
+  - text: "What the hell made you to feel sad babe...!
+  Wait..! I'll forward your message to Ms.Kavya Thirumala to help you out"
+  utter_kavya:
+  - text: "Kavya is a chatbot expert! she is the daughter of Sudharshan Goud and Anuradha
+  You can contact her only using mail: kavyathirumala@gmail.com"
+
+  utter_did_that_help:
+  - text: "Is this okay to you?"
+  utter_happy:
+  - text: "Cheers!, Kavya gonna call you soon!"
+
+  utter_goodbye:
+  - text: "see you soon too"
+
+  utter_iamabot:
+  - text: "I am a bot, Created by Ms.Kavya Thirumala."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
